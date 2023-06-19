@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISRO centres locator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
     <div id="container">
-        <h2 id="heading">Heading</h2>
-        <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, temporibus?</p>
-        <div id="input-section">
-            <input type="text" id="input" placeholder="Search by city/state or centre">
+        <img src="assest/ISRO-Black.svg" alt="isro-logo" width="90px" height="80px">
+        <h2 id="heading">India Space Research Organization</h2>
 
+        <p id="info">Uncover ISRO's space research hubs across India by searching for a city/state or center name.</p>
+
+        <div id="input-section">
+            <input type="text" id="input" placeholder="Search for city, state or centre">
+        </div>
+
+        <div id="btn-section">
             <button class="buttons" id="city-btn">City</button>
             <button class="buttons" id="state-btn">State</button>
             <button class="buttons" id="centre-btn">Centre</button>
         </div>
+            
         <div id="output">
             <table id="resultTable">
-
             </table>
         </div>
     </div>
